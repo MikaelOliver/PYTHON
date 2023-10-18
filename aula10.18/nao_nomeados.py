@@ -1,0 +1,9 @@
+# VALORES NOMEADOS.
+a = 1
+b = 1
+soma = a + b
+print(soma)
+
+# VALORES NÃO NOMEADOS.
+print(1+1)
+# Obs: VALORES NÃO NOMEADOS, NÃO SE PROPAGAM NO SEU CODIGO.
