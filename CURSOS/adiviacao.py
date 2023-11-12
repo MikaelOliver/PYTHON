@@ -1,6 +1,6 @@
-print('='*30)
+print('='*32)
 print('Bem vindo ao jogo de adiviação!')
-print('='*30)
+print('='*32)
 
 num_scret = 42
 
@@ -10,3 +10,6 @@ if(num_scret==chute):
     print('você acertou!!')
 else:
     print('Você errou!!')
+print('='*30)
+print('Fim do jogo!')
+print('='*30)
