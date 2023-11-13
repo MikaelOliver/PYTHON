@@ -9,7 +9,10 @@ print(f'O seu numero é:{chute}')
 if(num_scret==chute):
     print('você acertou!!')
 else:
-    print('Você errou!!')
+    if(num_scret < chute):
+        print('Você fez um chute maior do que o numero secreto')
+    if(num_scret > chute):
+        print('Você fez um chute menor do que o numero secreto')
 print('='*30)
 print('Fim do jogo!')
 print('='*30)
