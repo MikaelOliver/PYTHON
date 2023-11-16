@@ -5,7 +5,7 @@
 #remove - remove um objeto especifico da lista
 #pop - remove o ultimo objeto da lista
 #insert - adiciona um objeto em qualquer lugar da lista
-#copy - copiar uma lista mudando o endereço
+#copy - copiar uma lista mudando o endereço.
 lista = []
 lista = ['back']
 lista.append('front') 
