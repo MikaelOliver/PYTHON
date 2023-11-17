@@ -1,0 +1,25 @@
+ITERAVEIS- são objeytos que podem sofre iteração. É uma repetição, ou seja podemos executar um processo ou uma ação repetidas vezes sobreesse objeto e em seus elementos.
+
+SET- são conjuntos e esse conjuntos no python são mesmo conjuntos  que aprendemos na escola
+
+CARACTERISTICAS - não tem indice, não carantem ordem de elementos, são iteraveis(for, in, not in), são mutaveis mas só aceitam tipo imutaveis dentro dele, não podem conter elementos duplicados.
+
+PARAMETRO - {}
+
+METODOS - add, uptade, celar e discard
+
+CRIANDO UM SET: set{'Paulo', 'Junior'} ou {1,3,5,7}
+
+ESTRUTURAS DE REPETIÇÃO
+
+while - observar a possibilidade de não repetições.
+for - observar a possibilidade de repetições.
+
+contador 
+while condição:
+    codigo
+    implementar o contador
+break = quebra as estruturas de repetição
+
+for contador:
+    codigo
