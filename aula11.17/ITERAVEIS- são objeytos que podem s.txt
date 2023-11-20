@@ -23,3 +23,10 @@ break = quebra as estruturas de repetição
 
 for contador:
     codigo
+
+for - É uma estrutura de repetição, um ponto a ser observado é que o 'for' ele deve ser utilizado em casos que você sabe a quantidade de repetições.
+
+na grande maioria das vezes você vai utilizad o metodo range() pra montar a chamado do 'for'
+
+range(i, f, s) i = inicio f= fim s = step/salto
+OBS: você não é obrigado a passar os 3 valores do range, caso passe apenas 1 valor sera considerado como o valor do fim. range(5)
