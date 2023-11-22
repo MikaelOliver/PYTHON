@@ -8,7 +8,7 @@ def jogar():
 
     enforcou = False
     acertou = False
-    
+    erros = 0
     print(letras_acertadas)
 
     while(not enforcou and not acertou):
@@ -20,6 +20,9 @@ def jogar():
             if(chute.upper() == letra.upper()):
                 letras_acertadas[index] = letra.upper()
             index = index + 1
+            else:
+                erros = erros +1
+
 
         print(letras_acertadas)
 
