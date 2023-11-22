@@ -5,8 +5,8 @@ for i in range(1001):
 
 
 lista = []
-for interio in range(20):
+for interio in range(10):
     interio = int(input('Digite um numero interio: '))
     lista.append(interio)
-print(lista[0::2])
-print(lista[1::2])
+print(len(lista[0::2]))
+print(len(lista[1::2]))
