@@ -1,0 +1,7 @@
+name = input('Digite o seu nome: ').lower()
+a = name.count('a')
+e = name.count('e')
+i = name.count('i')
+o = name.count('o')
+u = name.count('u')
+print(a + e + i + o + u)

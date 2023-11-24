@@ -1,0 +1,7 @@
+name = input('Digite o seu nome: ')
+new_name = name.replace('a','')
+new_name1 = new_name.replace('i','')
+new_name2 = new_name1.replace('o','')
+new_name3 = new_name2.replace('u','')
+new_name4 = new_name3.replace( 'e', '')
+print(new_name4)
