@@ -1,0 +1,62 @@
+###### PROGRAMAÇÃO ORIENTADA A OBJETOS ########
+Conceitos ateriores.
+-> Paradigma de orientação a objetos usando para representar o mundo real
+-> mundo real: Entidades que se interagem 
+Ex: adultos trabalhando||| crianças brincando.
+
+Entidades
+entidade = objeto
+Alguma coisa que tenha sua propria existência, caracteristicas e que apresente alguma função dentro do mundo real
+
+São abstrações dos objetos existentes no mundo real:
+    Possuem os mesmos comportamentos:
+    Possuem os mesmos estados:
+
+Podem representar os objetos no mundo real em varios niveis de abstração:
+
+depende de decisões do observador do mundo.
+
+OBJETOS 
+objetos Possuem estados(atributos) e comportamentos(metodos):
+
+uma poeta tem:
+    estados: aberta, fechada;
+    comportamentos abrir, fechar
+OBS:*** atributos sempre será/terão relações com os substantivos:****
+OBS:*** metodos sempre será/terão relações com os verbo:****
+OBS: *** sempre que criar um objeto começar pelo os atributos: atributo -- metodos
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+DEFININDO UMA CLASSE:
+CLASSE: molde
+OBJETO: Agente ativo na programação
+METODO: capacidade de ação do agnente ativo
+ATRIBUTO: capacidade do agnente ativo
+
+
+class Automovel:
+    def __init__ (self, placa = 'XX-123'):
+        self.placa = placa
+
+    def get_placa(self):
+        return self.placa
+    
+    def dirigir(self, velocidade):
+        print('Estou dirigindo a %d' \ 'km/h % velocidade)
+
+SMP CRIAR UM UML********************
+
+
+
+
+
+
+
+
+
+
+
+
