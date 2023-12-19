@@ -51,6 +51,16 @@ SMP CRIAR UM UML********************
 
 
 
+isalnum() - para verificar se tem numeros no texto
+
+
+txt = "CompanyX"
+
+x = txt.isalpha() - para verificar se tem apenas letras
+
+print(x) 
+
+
 
 
 
